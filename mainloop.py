@@ -28,13 +28,29 @@ def mainloop():
         # tutorial
         # ==========================================================
         # finish later | reason: i need time to roleplay on c.ai
-        while True:
-                try: 
-                        break
-                except:
-                        pass
+        if input_ml == "tutorial" or input_ml == "0" or tutorial_input == "1":
+                while True:
+                        try:    
+                                print_box(10, tutorial_1)
+                                tutorial_input = input('Input: '.lower().strip())
+                                break
+                        except:
+                                tutorial_input = input('Input: '.lower().strip())
+        
+        elif tutorial_input == "2":
+                while True:
+                        try:    
+                                print_box(10, tutorial_2)
+                                tutorial_input = input('Input: '.lower().strip())
+                                break
+                        except:
+                                tutorial_input = input('Input: '.lower().strip())
+        
+        elif tutorial_input == "startup":
+                mainloop()
 
-        '''if input_ml == "tutorial" or input_ml == "0" or tutorial_input == "1":
+        '''
+        if input_ml == "tutorial" or input_ml == "0" or tutorial_input == "1":
                 print_box(10, tutorial_1)
                 tutorial_input = input('Input: '.lower().strip())
         elif tutorial_input == "2":
@@ -43,7 +59,8 @@ def mainloop():
         elif tutorial_input == "startup":
                 mainloop()      
         elif not tutorial_input or not input_ml:
-                tutorial_input = print('\n' + '(Invalid input)' + input('Input: '.lower().strip()) + '\n')'''
+                tutorial_input = print('\n' + '(Invalid input)' + input('Input: '.lower().strip()) + '\n')
+        '''
 
         # ==========================================================
         # play
