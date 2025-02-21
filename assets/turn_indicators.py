@@ -1,0 +1,23 @@
+cheveron_star    = '<*>'
+cheveron_super   = '<^>'
+cheveron_zero    = '<0>'
+cheveron_sm_o    = '<o>'
+cheveron_lrg_O   = '<O>'
+
+bracket_star     = '[*]'
+bracket_super    = '[^]'
+bracket_zero     = '[0]'
+bracket_sm_o     = '[o]'
+bracket_lrg_O    = '[O]'
+
+round_star       = '(*)'
+round_super      = '(^)'
+round_zero       = '(0)'
+round_sm_o       = '(o)'
+round_lrg_O      = '(O)'
+
+curly_star       = '{*}'
+curly_super      = '{^}'
+curly_zero       = '{0}'
+curly_sm_o       = '{o}'
+curly_lrg_O      = '{O}'
