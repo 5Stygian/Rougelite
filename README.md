@@ -23,11 +23,11 @@ In order of importance
 
 ### Assets
 
-> - assets/
->   - assets.txt
->   - asset_name.py
->
-> The assets folder contains all assets used by the game. The assets.txt file contains all assets but mainly things like box formats (It exists because I thought it would be funny to have an assets.txt file.).
-> An asset is stored as a python variable. They are imported as necessary.
->
-> - canvas.txt: used when making assets for the game. The most recent asset will not be removed from the file, meaning you will be able to see the asset that was most recently worked on.
+- assets/
+  - assets.txt
+  - asset_name.py
+
+The assets folder contains all assets used by the game. The assets.txt file contains all assets but mainly things like box formats (It exists because I thought it would be funny to have an assets.txt file.).
+An asset is stored as a python variable. They are imported as necessary.
+
+- canvas.txt: used when making assets for the game. The most recent asset will not be removed from the file, meaning you will be able to see the asset that was most recently worked on.
