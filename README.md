@@ -35,4 +35,4 @@ An asset is stored as a python variable. They are imported as necessary.
 
 ## Credits
 
-[Patorjk ASCII Text Generator](https://patorjk.com/software/taag/)
+[Patorjk ASCII Text Generator](https://patorjk.com/software/taag/){:target="_blank"} 
