@@ -10,6 +10,7 @@ You can contribute by making a branch and adding your changes. Here is the crite
 - Use snake case and ALLCAPS when naming variables
     - If the variable is an asset, use lowercase
 - Feel free to credit yourself in your code. It's your code after all
+- When creating an asset that needs a big title (like on the menu screen), use the slant font from the ASCII text generator linked below
 
 ## To Do List
 
@@ -31,3 +32,7 @@ The assets folder contains all assets used by the game. The assets.txt file cont
 An asset is stored as a python variable. They are imported as necessary.
 
 - canvas.txt: used when making assets for the game. The most recent asset will not be removed from the file, meaning you will be able to see the asset that was most recently worked on.
+
+## Credits
+
+[Patorjk ASCII Text Generator](https://patorjk.com/software/taag/)
