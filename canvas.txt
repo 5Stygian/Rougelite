@@ -12,14 +12,31 @@
 |                                   |                                                       |
 +-----------------------------------+-------------------------------------------------------+
 
-player_health_display = f"HP: {pla.health}/{pla.health_max}"
-enemy_health_display  = f"HP: {pla.health}/{pla.health_max}"
+from classes import player as pla
+from classes import enemies as enm
 
+player_name           = f"{pla.name}\tLevel: {pla.level} ({pla.xp}/{pla.xp_req})"
+player_health_display = f"HP: {pla.health}/{pla.health_max}"
+player_defense        = f"{pla.defense_flat * pla.defense_nonflat}"
+player_attack         = f"{pla.attack}"
+
+enemy_name            = f"{enm.name}"
+enemy_health_display  = f"HP: {enm.health}/{enm.health_max}"
+enemy_defense         = f"{enm.defense_flat * enm.defense_nonflat}"
+enemy_attack          = f"{enm.attack}"
+
++--------------------------------------------------------------------------+
+|     ______     ______     __    __     ______     ______     ______      |
+|    /\  ___\   /\  __ \   /\ "-./  \   /\  == \   /\  __ \   /\__  _\     |
+|    \ \ \____  \ \ \/\ \  \ \ \-./\ \  \ \  __<   \ \  __ \  \/_/\ \/     | 
+|     \ \_____\  \ \_____\  \ \_\ \ \_\  \ \_____\  \ \_\ \_\    \ \_\     | 
+|      \/_____/   \/_____/   \/_/  \/_/   \/_____/   \/_/\/_/     \/_/     | 
++--------------------------------------------------------------------------+
 +-----------------------------------+  +-----------------------------------+
-|{pla.name^35}|  |{enm.name^35}|
+|{player_name:^35}|  |{enemy_name:^35}|
 |{player_health_display:^35}|  |{enemy_health_display:^35}|
-|{}|  |{}|
-|{}|  |{}|
+|{player_defense:^35}|  |{enemy_defense:^35}|
+|{player_attack:^35}|  |{enemy_attack:^35}}|
 +-----------------------------------+  +-----------------------------------+
 |{}|  |{}|
 |{}|  |{}|
