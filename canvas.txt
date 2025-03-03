@@ -12,9 +12,12 @@
 |                                   |                                                       |
 +-----------------------------------+-------------------------------------------------------+
 
+player_health_display = f"HP: {pla.health}/{pla.health_max}"
+enemy_health_display  = f"HP: {pla.health}/{pla.health_max}"
+
 +-----------------------------------+  +-----------------------------------+
 |{pla.name^35}|  |{enm.name^35}|
-|HP: {pla.health}/{pla.health_max}|  |HP: {enm.health}/{enm.health_max}|
+|{player_health_display:^35}|  |{enemy_health_display:^35}|
 |{}|  |{}|
 |{}|  |{}|
 +-----------------------------------+  +-----------------------------------+
