@@ -36,7 +36,7 @@ enemy_attack          = f"{enm.attack}"
 |{player_name:^35}|  |{enemy_name:^35}|
 |{player_health_display:^35}|  |{enemy_health_display:^35}|
 |{player_defense:^35}|  |{enemy_defense:^35}|
-|{player_attack:^35}|  |{enemy_attack:^35}}|
+|{player_attack:^35}|  |{enemy_attack:^35}|
 +-----------------------------------+  +-----------------------------------+
 |{}|  |{}|
 |{}|  |{}|
