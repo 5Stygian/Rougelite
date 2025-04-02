@@ -13,10 +13,10 @@ class Player:
                 self.level           = level
         
         def attack(self):
-                Enemy.health = (Enemy.health - (self.attack - Enemy.defense_flat *    Enemy.defense_nonflat))
+                Enemy.health = Enemy.health - (self.attack - (Enemy.defense_flat * Enemy.defense_nonflat))
 
 class Enemy:
-        def __init__(self, name, health, health_max, defense_flat, defense_nonflat, attack, ):
+        def __init__(self, name, health, health_max, defense_flat, defense_nonflat, attack):
                 self.name            = name
                 self.health          = health
                 self.health_max      = health_max
