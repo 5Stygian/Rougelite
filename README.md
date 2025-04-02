@@ -7,7 +7,7 @@ This is a text-based roguelite played by inputting commands into a text promt.
 You can contribute by making a branch and adding your changes. Here is the criterea for contributing:
 - Use a tab size of 8 spaces
 - Provide comments briefly explaining what your code does
-- Use snake case and ALLCAPS when naming variables
+- Use snake case or ALLCAPS when naming variables
     - If the variable is an asset, use lowercase
 - Feel free to credit yourself in your code. It's your code after all
 - When creating an asset that needs a big title (like on the menu screen), use the slant font from the ASCII text generator linked below
