@@ -1,5 +1,3 @@
-import enemies as enm
-
 class Player:
         def __init__(self, name, health, health_max, defense_flat, defense_nonflat, attack, equipped, inventory, xp, xp_req, level):
                 self.name            = name
@@ -15,4 +13,17 @@ class Player:
                 self.level           = level
         
         def attack(self):
-                enm.health = enm.health - (self.attack - (enm.defense_flat * enm.defense_nonflat))
+                Enemy.health = (Enemy.health - (self.attack - Enemy.defense_flat *    Enemy.defense_nonflat))
+
+class Enemy:
+        def __init__(self, name, health, health_max, defense_flat, defense_nonflat, attack, ):
+                self.name            = name
+                self.health          = health
+                self.health_max      = health_max
+                self.defense_flat    = defense_flat
+                self.defense_nonflat = defense_nonflat
+                self.attack          = attack
+        
+        def attack(self):
+                Player.health = Player.health - (self.attack - (Player.defense_flat * Player.defense_nonflat))
+                

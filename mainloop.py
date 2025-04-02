@@ -1,8 +1,8 @@
 from assets.title import title_1
 from assets.tutorial import tutorial_1, tutorial_2
+from classes.entities import *
 
-from classes import enemies as enm
-from classes import player as pla
+
 
 # condenses the printing of boxes
 # cs teacher said keeping the code as condensed as possible was a good thing 
