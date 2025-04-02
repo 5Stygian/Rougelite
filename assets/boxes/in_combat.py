@@ -1,4 +1,5 @@
-from classes import *
+from classes.entities import Player
+from classes.entities import Enemy
 
 player_name           = f"{player.name}\tLevel: {player.level} ({player.xp:,.2f}/{player.xp_req:,.2f})"
 player_health_display = f"HP: {player.health:,.2f}/{player.health_max}"
