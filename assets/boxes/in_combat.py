@@ -1,5 +1,4 @@
-from classes import player as pla
-from classes import enemies as enm
+from classes import *
 
 player_enemy_out = f"""
 +-----------------------------------+  +-----------------------------------+
