@@ -10,12 +10,12 @@ class Player:
                 self.xp_req          = xp_req
                 self.level           = level
                 self.equipped        = {
-                        "slot_1": ,
-                        "slot_2": ,
-                        "slot_3": ,
-                        "slot_4": ,
-                        "slot_mainhand": ,
-                        "slot_offhand":
+                        "slot_1": "",
+                        "slot_2": "",
+                        "slot_3": "",
+                        "slot_4": "",
+                        "slot_mainhand": "",
+                        "slot_offhand": ""
                 }
                 self.inventory       = []
         
