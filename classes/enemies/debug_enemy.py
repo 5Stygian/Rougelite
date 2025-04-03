@@ -6,5 +6,7 @@ DEBUG_ENEMY = Enemy(
         10, 
         1,
         1,
-        
+        1
 )
+
+print(DEBUG_ENEMY)
