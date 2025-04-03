@@ -9,11 +9,13 @@ class Player:
                 self.xp              = xp
                 self.xp_req          = xp_req
                 self.level           = level
-                self.equipped        = equipped = {
-                                                "head_slot": ,
-                                                "bdoy_slot": ,
-                                                "legs_slot": ,
-                                                "feet_slot": ,
+                self.equipped        = {
+                        "slot_1": ,
+                        "slot_2": ,
+                        "slot_3": ,
+                        "slot_4": ,
+                        "slot_mainhand": ,
+                        "slot_offhand":
                 }
                 self.inventory       = inventory
         
@@ -27,11 +29,11 @@ player = Player(
         1,      # Flat defense
         1,      # Nonflat defense
         1,      # Attack
-        0,
-        0,
+        {},     # Equipped
+        {},     # Inventory
         0,      # Xp
         100,    # Required xp
-        1.      # Level
+        1       # Level
         )
 
 class Enemy:
