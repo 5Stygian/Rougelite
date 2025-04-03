@@ -19,7 +19,7 @@ class Player:
                 }
                 self.inventory       = inventory
         
-        def attack(self):
+        def attack(self, Enemy.name):
                 Enemy.health = Enemy.health - (self.attack - (Enemy.defense_flat * Enemy.defense_nonflat))
 
 player = Player(
@@ -34,7 +34,7 @@ player = Player(
         0,      # Xp
         100,    # Required xp
         1       # Level
-        )
+)
 
 class Enemy:
         def __init__(self, name, health, health_max, defense_flat, defense_nonflat, attack):
