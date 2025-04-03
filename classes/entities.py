@@ -17,10 +17,10 @@ class Player:
                         "slot_mainhand": ,
                         "slot_offhand":
                 }
-                self.inventory       = inventory
+                self.inventory       = []
         
         def attack(self, Enemy.name):
-                Enemy.health = Enemy.health - (self.attack - (Enemy.defense_flat * Enemy.defense_nonflat))
+                Enemy.name.health = Enemy.name.health - (self.attack - (Enemy.defense_flat * Enemy.defense_nonflat))
 
 player = Player(
         "name", # Player name
@@ -28,12 +28,12 @@ player = Player(
         10,     # Maximum health
         1,      # Flat defense
         1,      # Nonflat defense
-        1,      # Attack
-        {},     # Equipped
-        {},     # Inventory
+        1,      # Attac
         0,      # Xp
         100,    # Required xp
-        1       # Level
+        1,      # Level
+        {},     # Equipped
+        []      # Inventory
 )
 
 class Enemy:
