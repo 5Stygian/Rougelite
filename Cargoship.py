@@ -20,5 +20,5 @@ class Cargoship:
                 else:
                         return False
 
-       def gate_not(arg1):
-                return not(arg1)
+        def gate_not(arg):
+                return not(arg)
