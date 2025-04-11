@@ -17,7 +17,6 @@ You can contribute by making a branch and adding your changes. Here is the crite
 In order of importance
 
 - Make basic player and enemy classes
-- Make simple interactions between them like attacking
 - Make the home base/hub world
 
 ## GitHub Repository Guide
